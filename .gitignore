@@ -1,22 +1,32 @@
-# Compiled class file
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+
+#PARA REALIZAR COMMIT EN JAVA DESDE NETBEANS
+#java specific
 *.class
 
-# Log file
-*.log
+#netbeans ignore personal stuff
+nbproject/
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
 
 # Package Files #
 *.jar
 *.war
 *.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
